@@ -21,7 +21,7 @@ else
 fi
 
 for ip in $(cat $1 );do
-curl -s --request GET --url "https://www.virustotal.com/api/v3/ip_addresses/$ip" --header "x-apikey:ac438ed63780377b7fe72a51f398d6cf1179b1bea82c14f51a7a2388f8a3e69c" > vt.txt
+curl -s --request GET --url "https://www.virustotal.com/api/v3/ip_addresses/$ip" --header "x-apikey:<API-key>" > vt.txt
 sleep 10
   
 if [ $(grep 'malicious' vt.txt | wc -l) -gt 3 ];then
