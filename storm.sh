@@ -4,7 +4,7 @@
 if which figlet >/dev/null;then
 	figlet -k -f slant Storm
 else
-	echo "figlet was not installed, installing now"
+	echo "figlet was not installed, installing now.."
 	sudo apt install figlet
 	echo "figlet was installed, restart the tool!"
 	exit 1
