@@ -10,7 +10,7 @@ else
 	exit 1
 fi
 
-echo "# Coded by: Alsalt Alkharosi"
+echo "# Coded by: Alsalt Alkharosi @0x_pwner"
 
 if [ -z "${1}" ];then 
 	echo "[!] Usage: ./storm.sh <filename>"
