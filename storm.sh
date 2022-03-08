@@ -6,7 +6,7 @@ if which figlet >/dev/null;then
 else
 	echo "figlet was not installed, installing now.."
 	sudo apt install figlet
-	echo "figlet was installed, restart the tool!"
+	echo "figlet was installed, restart the script!"
 	exit 1
 fi
 
